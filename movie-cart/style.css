@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 99vh;
+}
+.movies-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+.movie{
+    margin-left: 25px;
+    color: white;
+    width: 300px;
+    background-color: #050509;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.12);
+}
+.movie-image img{
+    
+    max-width: 100%;
+    z-index: -1;
+}
+.movie-informations{
+    padding: 20px;
+}
+.movie-informations h2{
+    margin-bottom: 10px;
+}
+.movie-informations p{
+    opacity: .5;
+}
+.rate-star{
+    margin-top: 10px;
+    fill: yellow;
+}
+.watch-movie-btn{
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    background-color: yellow;
+    border: 0px;
+    font-size: 1.2em;
+    cursor: pointer;
+    
+}
+.watch-movie-btn:hover{
+    background-color: rgb(197, 197, 0);
+
+}
+.movie-rate{
+    padding: 0 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rate-btn{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(56, 56, 56);
+    cursor: pointer;
+}
+
+.rated{
+    background-color: orange;
+}
+.rate-btn:hover{
+    background-color: rgb(70, 70, 70);
+    
+}
+.rated:hover{
+    background-color: rgb(208, 136, 1);
+
+}
+.added-message{
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    padding: 100px 200px;
+    font-size: 4em;
+    box-shadow: 0 0 0 10000px rgba(0,0,0,.5);
+}
+.movie-price{
+    padding: 10px 20px;
+
+}
+.total-money{
+    margin-top: 30px;
+    text-align: center;
+}
